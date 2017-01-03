@@ -15,7 +15,7 @@ namespace NewMVCMusicStore.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Learning MVC the right way";
 
             return View();
         }

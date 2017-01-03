@@ -84,12 +84,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="Samples\AlbumList\Album.cs" />
+    <Compile Include="Samples\AlbumList\AlbumsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Views\Albums\ListStronglyTyped.cshtml" />
+    <None Include="Views\Albums\ListWeaklyTyped.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NewMVCMusicStore\NewMVCMusicStore.csproj">
