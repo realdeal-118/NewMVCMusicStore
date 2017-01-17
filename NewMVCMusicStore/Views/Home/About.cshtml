@@ -1,7 +1,24 @@
 ﻿@{
     ViewBag.Title = "About";
 }
+
+
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
+<h3>@ViewBag.CurrentTime</h3>
 
 <p>Use this area to provide additional information.</p>
+
+
+<p> You should follow @@aspnet </p>
+
+@{   string message = "<strong>This is bold!</strong>"; } <span>@Html.Raw(message)</span>
+
+
+<h1>@Html.Raw(message)</h1>
+
+
+<span>1 + 2 = @(1 + 2)</span>
+
+
+The ASP.NET Twitter Handle is &#64;aspnet

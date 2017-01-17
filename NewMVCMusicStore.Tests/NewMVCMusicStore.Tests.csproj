@@ -86,6 +86,10 @@
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Samples\AlbumList\Album.cs" />
     <Compile Include="Samples\AlbumList\AlbumsController.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ProductModel.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartController.cs" />
+    <Compile Include="Samples\ShoppingCartViewModel\ShoppingCartViewModel.cs" />
+    <Compile Include="Samples\SpecifyingViews\SampleController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -94,6 +98,12 @@
     <None Include="packages.config" />
     <None Include="Views\Albums\ListStronglyTyped.cshtml" />
     <None Include="Views\Albums\ListWeaklyTyped.cshtml" />
+    <None Include="Views\Example\Index.cshtml" />
+    <None Include="Views\Sample\Index.cshtml" />
+    <None Include="Views\Sample\Message.cshtml" />
+    <None Include="Views\Sample\NotIndex.cshtml" />
+    <None Include="Views\Sample\PartialViewDemo.cshtml" />
+    <None Include="Views\ShoppingCart\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NewMVCMusicStore\NewMVCMusicStore.csproj">

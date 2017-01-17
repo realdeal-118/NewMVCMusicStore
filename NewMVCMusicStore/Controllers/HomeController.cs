@@ -16,6 +16,7 @@ namespace NewMVCMusicStore.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Learning MVC the right way";
+            ViewBag.CurrentTime = DateTime.Now;
 
             return View();
         }

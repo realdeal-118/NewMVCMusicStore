@@ -1,7 +1,8 @@
 namespace NewMVCMusicStore.Models
 {
-    public class Album
+    public class Product
 	{
         public string Title { get; set; }
+		public decimal Price { get; set; }
     }
 }
